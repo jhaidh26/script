@@ -33,7 +33,7 @@ repo init --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/man
 mkdir -p .repo/repo/hooks || true
 
 # ۵. Local manifest clone
-git clone https://github.com/jhaidh277/hotdogb_local_manifest --depth 1 -b op .repo/local_manifests || true
+git clone https://github.com/jhaidh26/local-manifist.git --depth 1 -b main .repo/local_manifests || true
 
 # 🎯 CRITICAL FIX: লোকাল ম্যানিফেস্টে ওপো ক্যামেরা ও হার্ডওয়্যার সোর্স ইনজেক্ট করা
 if [ -d .repo/local_manifests ]; then
